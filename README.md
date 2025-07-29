@@ -22,9 +22,11 @@ IntentSpec is a LaTeX package to facilitate writing requirements documents in th
 
 For a demonstration, look at intent_specifications_example.tex and compile it with the following commands:
 
+```
 latex intent_specifications_example.tex
 latex intent_specifications_example.tex
 dvipdf intent_specifications_example.dvi
+```
 
 Then open the resulting PDF in a viewer of your choice.
 
