@@ -29,6 +29,9 @@
   \renewcommand{\labelenumii}{\intentPrefix\arabic{enumi}.\arabic{enumii}}
   \renewcommand{\labelenumiii}{\intentPrefix\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
   \renewcommand{\labelenumiv}{\intentPrefix\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+  \makeatletter
+  \renewcommand\p@enumiii{\theenumi\theenumii}
+  \makeatother
 
   \begin{enumerate}
     \setlength{\itemsep}{7pt}
